@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>dricats-datamodels</artifactId>
+        <groupId>net.fhirfactory.dricats</groupId>
+        <version>1.6.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>dricats-datamodels-configuration</artifactId>
+    <version>1.6.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>DRICaTS :: Data Models :: Configuration</name>
+
+    <!--***********************************************************************************-->
+    <!--                                                                                   -->
+    <!-- Project Prerequisites                                                             -->
+    <!--                                                                                   -->
+    <!--***********************************************************************************-->
+
+    <prerequisites>
+        <maven>3.5.0</maven>
+    </prerequisites>
+
+    <!--***********************************************************************************-->
+    <!--                                                                                   -->
+    <!-- Project Properties                                                                -->
+    <!--                                                                                   -->
+    <!--***********************************************************************************-->
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+    <!--***********************************************************************************-->
+    <!--                                                                                   -->
+    <!-- Project License                                                                   -->
+    <!--                                                                                   -->
+    <!--***********************************************************************************-->
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <!--***********************************************************************************-->
+    <!--                                                                                   -->
+    <!-- Project Dependencies                                                              -->
+    <!--                                                                                   -->
+    <!--***********************************************************************************-->
+
+    <dependencies>
+
+        <!--*******************************************************************************-->
+        <!-- DRICaTS Common Data Model                                                     -->
+        <!--*******************************************************************************-->
+
+        <dependency>
+            <groupId>net.fhirfactory.dricats</groupId>
+            <artifactId>dricats-datamodels-common</artifactId>
+            <version>${project.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        
+    </dependencies>
+
+</project>

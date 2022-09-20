@@ -1,0 +1,6 @@
+package net.fhirfactory.dricats.interfaces.petasos.ipc.services.agents.tasks.routing;
+
+import net.fhirfactory.dricats.interfaces.petasos.ipc.services.servers.tasks.routing.PetasosParticipantRegistrationGlobalProcessorInterface;
+
+public interface PetasosParticipantRegistrationAgentProxyInterface extends PetasosParticipantRegistrationGlobalProcessorInterface {
+}
